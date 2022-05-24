@@ -38,3 +38,13 @@ Regular expressions are the sequence of patterns that are used to find the patte
 >* After that, S should have 1 or more uppercase letters.
 >* S should end with 1 or more lowercase letters.
 >#### Solution: r'^\\d+[A-Z]+[a-z]+$'
+
+## $
+> End string with the proceeding character/ group/ Character class. e.g. 123$
+>### TASK-8: </br>
+>#### Question: 
+>Write a RegEx to match a test string, S, under the following conditions:
+
+>* S should consist of only lowercase and uppercase letters (no numbers or symbols).
+>* S should end in s.
+>#### Solution: r'^[a-z A-Z]\*s$'
