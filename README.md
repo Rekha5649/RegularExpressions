@@ -3,5 +3,5 @@ Regular expressions are the sequence of patterns that are used to find the patte
 
 ## Dot: 
 >1. Dot (.) matches anything except the newline character in the string.
->>eg. abc.efg.ijk.mno
+>>eg. abc.efg.ijk.mno</br>
 >> Solution: r'^...\\....\\....\\....$'
