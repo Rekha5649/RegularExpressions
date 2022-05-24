@@ -27,3 +27,14 @@ Regular expressions are the sequence of patterns that are used to find the patte
 >* After that, S should have 0 or more lowercase letters.</br>
 >* S should end with 0 or more uppercase letters</br>
 > #### Solution: r'^\\d{2}\\d*[a-z]\*[A-Z]\*$'
+
+## +
+>+ mathes 1 or more repetition of proceeding character/group/ character class.
+>### TASK-7: </br>
+>#### Question: 
+>You have a test string S. Your task is to write a regex that will match S using the following conditions:
+
+>* S should begin with 1 or more digits.
+>* After that, S should have 1 or more uppercase letters.
+>* S should end with 1 or more lowercase letters.
+>#### Solution: r'^\\d+[A-Z]+[a-z]+$'
