@@ -57,4 +57,12 @@ Regular expressions are the sequence of patterns that are used to find the patte
 >* S should have 3 or more consecutive repetitions of ok.
 >#### Solution: r'(ok){3}\\1*'
 
+>## Notes
+>Alternations, denoted by the | character, match a single item out of several possible items separated by the vertical bar. When used inside a character class, it will match characters; when used inside a group, it will match entire expressions (i.e., everything to the left or everything to the right of the vertical bar). We must use parentheses to limit the use of alternations.
+>### TASK-10: </br>
+>#### Questions:
+>Given a test string, s, write a RegEx that matches s under the following conditions:
 
+>* s must start with Mr., Mrs., Ms., Dr. or Er..
+>* The rest of the string must contain only one or more English alphabetic letters (upper and lowercase).
+>>#### Solution: r'^(Mr|Mrs|Ms|Dr|Er)\\.[a-z A-Z]+$'
