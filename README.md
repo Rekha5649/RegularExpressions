@@ -48,3 +48,13 @@ Regular expressions are the sequence of patterns that are used to find the patte
 >* S should consist of only lowercase and uppercase letters (no numbers or symbols).
 >* S should end in s.
 >#### Solution: r'^[a-z A-Z]\*s$'
+
+## Parenthesis ()
+>Parenthesis ( ) around a regular expression can group that part of regex together. This allows us to apply different quantifiers to that group.These parenthesis also create a numbered capturing. It stores the part of string matched by the part of regex inside parentheses.These numbered capturing can be used for backreferences. ( We shall learn about it later )
+>### TASK-9: </br>
+>#### Question: 
+>You have a test String S. Your task is to write a regex which will match S with the following condition:
+>* S should have 3 or more consecutive repetitions of ok.
+>#### Solution: r'(ok){3}\\1*'
+
+
