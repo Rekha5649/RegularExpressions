@@ -26,4 +26,4 @@ Regular expressions are the sequence of patterns that are used to find the patte
 >* S should begin with 2 or more digits.</br>
 >* After that, S should have 0 or more lowercase letters.</br>
 >* S should end with 0 or more uppercase letters</br>
-> #### Solution: r'^\\d{2}\\d*[a-z]*[A-Z]*$'
+> #### Solution: r'^\\d{2}\\d*[a-z]\*[A-Z]\*$'
