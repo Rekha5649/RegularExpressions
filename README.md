@@ -66,3 +66,12 @@ Regular expressions are the sequence of patterns that are used to find the patte
 >* s must start with Mr., Mrs., Ms., Dr. or Er..
 >* The rest of the string must contain only one or more English alphabetic letters (upper and lowercase).
 >>#### Solution: r'^(Mr|Mrs|Ms|Dr|Er)\\.[a-z A-Z]+$'
+
+## Positive lookahead (regex1(?=regex2))
+
+The positive lookahead (?=) asserts regex_1 to be immediately followed by regex_2. The lookahead is excluded from the match. It does not return matches of regex_2. The lookahead only asserts whether a match is possible or not.
+
+>### TASK:
+>#### Question: 
+>Write a regex that can match all occurrences of o followed immediately by oo in String.
+>#### Solution: Regex_Pattern = r'o(?=(oo))'
