@@ -81,3 +81,7 @@ The positive lookahead (?=) asserts regex_1 to be immediately followed by regex_
 >#### Question: 
 >Write a regex that can match all occurrences of o followed immediately by oo in String.
 >#### Solution: Regex_Pattern = r"(.)(?!\1)"
+
+## Greedy (.*) and Non-Greedy match (.*?)
+e.g. <.*> : it will match till the last greater than '>' is found
+  <.*?>: it will match whereever the first greater than '>' is found
