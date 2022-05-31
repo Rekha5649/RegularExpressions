@@ -83,5 +83,6 @@ The positive lookahead (?=) asserts regex_1 to be immediately followed by regex_
 >#### Solution: Regex_Pattern = r"(.)(?!\1)"
 
 ## Greedy (.\*) and Non-Greedy match (.\*?)
-e.g. * <.\*> : it will match till the last greater than '>' is found </br>
-  * <.\*?>: it will match whereever the first greater than '>' is found
+e.g. 
+* <.\*> : it will match till the last greater than '>' is found </br>
+* <.\*?>: it will match whereever the first greater than '>' is found
