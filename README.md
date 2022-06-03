@@ -86,3 +86,7 @@ The positive lookahead (?=) asserts regex_1 to be immediately followed by regex_
 e.g. 
 * <.\*> : it will match till the last greater than '>' is found </br>
 * <.\*?>: it will match whereever the first greater than '>' is found
+
+## Non-Capturing Group (?:regex)
+
+
